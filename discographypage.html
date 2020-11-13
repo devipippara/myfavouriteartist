@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible"  content="ie-edge" />
+    
+<style>
+*{
+    
+    margin: 1px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container, .nav-links{
+    display: flex;
+}
+.logo-container{
+    flex: 1;
+}
+.logo-header{
+    font-weight:700;
+    margin: 35px;
+}
+nav{
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color:#43434b;
+    font-size: 18px;
+    text-decoration:none;
+}
+a.nav-link:hover{
+    color:black;
+}
+.footer{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    /* top: 50px; */
+    /* margin-bottom:50vh; */
+    font-size: 20px;
+    color:white;
+    padding:30px;
+    background-color:  rgb(70, 70, 70);
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.column{
+    /* flex: 33.33%; */
+    /* padding: 10px; */
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    margin:0 auto;
+}
+.column1{
+    /* flex: 33.33%; */
+    /* padding: 10px; */
+    font-family:'Poppins', sans-serif;
+    text-align: center;
+    padding:20px;
+}
+.gallery{
+    /* float:left; */
+    margin:0 auto;
+    width: 100%;
+    padding: 20px;
+    margin: 0px 0px 5px 0px;
+}
+.footer{
+    text-align: center;
+    margin: 0px 0px 30px 0px;
+    /* top: 50px; */
+    /* margin-bottom:50vh; */
+    font-size: 25px;
+    color:white;
+    padding:30px;
+    background-color:  rgb(70, 70, 70);
+}
+.middletext{
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+    text-align:center;
+    font-size: 50px;
+    font-weight:100;
+    color:white;
+}
+@media screen and (max-width:600px){
+    .row, .firstimage{
+     flex-direction:column;
+        width: 100%;
+    }
+@media screen and (min-width:601px)and (max-width:1020px){
+    .row, .firstiimage{
+        flex-direction:column;
+        width: 100%;
+    }
+@media screen and (min-width:1021px){
+    .row,.firstimage{
+        width:100%;
+    }
+}}}
+</style>
+
+<title>BTS-Discography</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="logo.jpg">
+            <h2 class="logo-header">BTS</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li><a class="nav-link" href="aboutpage.html" target="_blank">Profile</a></li>
+                <li><a class="nav-link" href="discographypage.html" target="_blank">Discography</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="middletext">ALBUMS</div>
+
+        <div class="row">
+            <div class="column">
+                <div class="gallery"> <a href="" target="_blank"><img src="10.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/3zWmE5c3alhuoPLphxjMVd" target="_blank"><img src="11.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/6mJZTV8lCqnwftYZa94bXS" target="_blank"><img src="12.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/1AvXa8xFEXtR3hb4bgihIK" target="_blank"><img src="13.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/2lATw9ZAVp7ILQcOKPCPqp" target="_blank"><img src="14.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/2jJfnAZE6IG3oYnUv2eCj4" target="_blank"><img src="15.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/2FTS6a6DLXMNp8flyA0HGO" target="_blank"><img src="16.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/64WayBZ9Mrx8iGOpME5vpI" target="_blank"><img src="17.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/7qvA0kf1dkmR1As2gOnBPn" target="_blank"><img src="18.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/6CqQEpTYDf64ku45E3ry7d" target="_blank"><img src="19.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/4frjaGAtuBmm8CPuYPY4oG" target="_blank"><img src="20.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/0Gv6nwfgk6Cy62j0GGITQc" target="_blank"><img src="21.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/playlist/2tsnHkhfI0a792IRz10VmJ" target="_blank"><img src="22.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/5DIb84mvBHZnYFpIsdt2tL" target="_blank"><img src="23.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/7xuLPtNlI8JJGVRkWzl7UW" target="_blank"><img src="24.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery"> <a href="https://open.spotify.com/album/26z5WolFltYgVMuuJ3c0Am" target="_blank"><img src="25.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="middletext">MOST POPULAR MUSIC VIDEOS</div>
+
+        <div class="row">
+                <div class="column"> 
+                    <div class="column1">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/7C2z4GqqS5E" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="column1">
+                    <iframe width="540" height="315" src="https://www.youtube.com/embed/hmE9f-TEutc" 
+                    frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column"> 
+                    <div class="column1">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/BVwAVbKYYeM" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column"> 
+                    <div class="column1">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/MBdVXkSdhwU" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column"> 
+                    <div class="column1">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/9DwzBICPhdM" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column"> 
+                    <div class="column1">
+                        <iframe width="540" height="315" src="https://www.youtube.com/embed/kTlv5_Bs8aw" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+        </div>
+
+        
+
+        <footer>
+            <div class="footer">
+                <p>Made by Devi Shruti Pippara, 2019-2023, 2nd Year, VCSB, Upskilling- HTML & CSS, Nov 2020</p>
+            </div>
+        </footer>
+
+    </main>
+
+
+</body>
+
