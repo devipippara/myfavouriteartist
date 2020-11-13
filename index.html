@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible"  content="ie-edge" />
+    
+<style>
+*{
+    
+    margin: 1px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+body{
+    background-color: rgb(156, 156, 156);
+    font-family: 'Poppins', sans-serif;
+}
+header {
+    display: flex;
+    width: 90%;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+}
+.logo-container, .nav-links{
+    display: flex;
+}
+.logo-container{
+    flex: 1;
+}
+.logo-header{
+    font-weight:700;
+    margin: 35px;
+}
+nav{
+    flex: 2;
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+    color:#383838;
+    font-size: 18px;
+    text-decoration:none;
+}
+a.nav-link:hover{
+    color:black;
+}
+.presentation{
+    display:flex;
+    width:80%;
+    margin:auto;
+    /* min-height:80vh; */
+    align-items: center;
+}
+.introduction{
+    /* flex:1; */
+}
+.intro-text h2{
+    /* flex:1; */
+    font-size: 35px;
+    font-weight:500;
+    color: rgb(214, 214, 214);
+    position: absolute;
+    bottom:30vh;
+    left:150px;
+    text-align: left;
+}
+.intro-text h1{
+    /* flex:1; */
+    background-color: clear;
+    font-size: 55px;
+    font-weight:900;
+    color: rgb(161, 23, 216);
+    position:absolute;
+    bottom:15vh;
+    left:150px;
+    text-align: left;
+}
+.firstimage{
+   max-width: 100%;
+   max-height: 100vh;
+   margin:auto;
+   position:relative;
+   text-align:center;
+}
+.firstimageedit{
+    /* opacity:0.75; */
+}
+.middletext{
+    margin-top: 12vh;
+    margin-bottom: 2vh;
+    text-align:center;
+    font-size: 70px;
+    font-weight:200;
+    color: rgb(224, 217, 208);
+    /* background: linear-gradient(to right, #6e0e9b, #d9d9f5 );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+.column{
+    /* align-items: center; */
+    margin-bottom: 5vh;
+    margin:0 auto;
+}
+
+.gallery{
+    margin:0 auto;
+    width: 100%;
+    /* padding:20px; */
+    margin:10px 0px 15px 0px;
+}
+.footer{
+    text-align: center;
+    /* margin: 0px 0px 30px 0px; */
+    /* top: 50px; */
+    /* margin-bottom:50vh; */
+    font-size: 25px;
+    color:white;
+    padding:30px;
+    background-color:  rgb(70, 70, 70);
+}
+@media screen and (max-width:600px){
+    .row{
+     flex-direction:column;
+        width: 100%;
+    }
+@media screen and (min-width:601px)and (max-width:1020px){
+    .row {
+        flex-direction:column;
+        width: 100%;
+    }
+@media screen and (min-width:1021px){
+    .row{
+        width:100%;
+    }}}}
+
+
+</style>
+
+<title>BTS-Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="logo.png" alt="logo.jpg">
+            <h2 class="logo-header">BTS</h2>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="index.html" target="_blank">Home</a></li>
+                <li><a class="nav-link" href="aboutpage.html" target="_blank">Profile</a></li>
+                <li><a class="nav-link" href="discographypage.html" target="_blank">Discography</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="firstimage"> 
+            <img src="1new.jpg" alt="" width="1790" >
+                <div class="presentation">
+                    <div class="introduction">
+                        <div class="intro-text">
+                            <h2>"Tell me your story. I want to hear your voice, I want to hear your conviction.<br>
+                                  No matter where you're from, who you are, your skin color, gender or identity."
+                            </h2>
+                            <h1>Speak Yourself.</h1>
+                        </div>
+                    </div>
+                </div>
+        
+    
+            <div class="middletext">
+                LATEST MUSIC VIDEOS
+            </div>
+            
+            <div class="row">
+                <div class="column">
+                    <div class="gallery" >
+                         <iframe width="560" height="315" src="https://www.youtube.com/embed/mPVDGOVjRQ0?start=1" 
+                         frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+                        
+                 <div class="column">
+                    <div class="gallery">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/0lapF4DQPKQ" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="column">
+                    <div class="gallery">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/gdZLi9oWNZg" 
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                 </div>
+             </div>
+            <!-- </div>   -->
+        <!-- </div>
+    </main> -->
+         <div class="middletext">
+          LATEST TWITTER POSTS
+         </div>
+
+         <div class="row">
+            <div class="column">
+                <div class="gallery" > 
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="26.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="27.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="28.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="29.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="30.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="31.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="33.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+
+            <div class="column">
+                <div class="gallery" >
+                    <a href="https://twitter.com/bts_twt?lang=en" target="_blank"><img src="34.jpg" alt="" width="400" height="400"></a>
+                </div>
+            </div>
+        </div>
+
+
+    <footer>
+        <div class="footer">
+            <p>Made by Devi Shruti Pippara, 2019-2023, 2nd Year, VCSB, Upskilling- HTML & CSS, Nov 2020</p>
+        </div>
+    </footer>
+    <!-- </div> -->
+<!-- </div> -->
+</main>
+
+</body>
+</html>
+
+
+<!-- tabletview, alignment in columns, placement of middle text on top of photograph -->
